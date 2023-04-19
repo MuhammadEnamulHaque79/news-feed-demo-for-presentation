@@ -32,8 +32,8 @@ const Header = () => {
                         
                         </Nav>
                         <Nav className='align-items-center'>
-                            <Nav.Link href="#deets">Profile</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
+                            <Nav.Link to="/profile">Profile</Nav.Link>
+                            <Nav.Link eventKey={2} to="/login">
                             <Button variant="dark">Login</Button>
                             </Nav.Link>
                         </Nav>
